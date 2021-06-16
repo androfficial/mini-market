@@ -604,9 +604,7 @@ body._lock {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
-  -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
+  gap: 20px;
 }
 
 .modal-preview__item {
