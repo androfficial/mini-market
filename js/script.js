@@ -355,7 +355,7 @@ const modalSlider = new Swiper('.modal-slider__container', {
 
 if (catalogList) {
    const loadProducts = (quantity = 5) => {
-      fetch('../data/data.json')
+      fetch('/mini-market/data/data.json')
          .then((response) => {
             return response.json();
          })
@@ -419,7 +419,7 @@ if (catalogList) {
    loadProducts(prodQuantity);
 
    const loadModalData = (id = 1) => (
-      fetch('../data/data.json')
+      fetch('/mini-market/data/data.json')
          .then((response) => {
             return response.json();
          })
@@ -566,7 +566,7 @@ const printQuantity = (num) => {
 };
 
 const loadCartData = (id = 1) => (
-   fetch('../data/data.json')
+   fetch('/mini-market/data/data.json')
       .then((response) => {
          return response.json();
       })
