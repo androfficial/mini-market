@@ -3,6 +3,7 @@
 * CSS Flexbox
 * CSS Grid Layout
 * JavaScript
+* SCSS
 * Php
 * Json-fake-server
 * SimpleBar
